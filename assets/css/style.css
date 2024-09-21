@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+#logo {
+    width: 4.5rem;
+    height: 4.5rem;
+    display: block;
+    margin: 0 auto;
+    padding: 3rem;
+}
+
+.title {
+    text-align: center;
+}
+
+.user { 
+    display: block;
+    margin: 0 auto;
+    width: 33%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid white;
+    padding: 1rem;
+}
+
+.element {
+    margin: 0.5rem;
+}
+
+#number, #convert-btn {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+#output {
+    text-align: center;
+    padding-top: 2rem;
+}
